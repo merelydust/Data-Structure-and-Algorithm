@@ -1,3 +1,7 @@
+//PAT 正确
+//(A+)PAT(A+)
+//aP(A+)Tc -> aP(A+1)ATca
+//-> PT中间有n个A 那么（P前面的字符串长度）* n = T后面的字符串长度
 #include <iostream>
 #include <string>
 #include <map>

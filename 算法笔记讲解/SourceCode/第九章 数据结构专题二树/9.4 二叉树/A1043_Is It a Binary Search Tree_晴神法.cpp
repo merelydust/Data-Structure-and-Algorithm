@@ -1,4 +1,4 @@
-// sequence就是insertion sequence = =？
+// 根据先序序列构建BST 因为递归地先插入根节点 再插入左子树右子树
 #include <cstdio>
 #include <vector>
 using namespace std;

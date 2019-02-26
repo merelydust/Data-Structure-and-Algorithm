@@ -44,7 +44,6 @@ int main() {
         sort(nodes[index].children.begin(), nodes[index].children.end(), cmp);
     }
     seq.push_back(0);
-    dfs(0, 0);
+    dfs(0, nodes[0].w);
     return 0;
 }
-
